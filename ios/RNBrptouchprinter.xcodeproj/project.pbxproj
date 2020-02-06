@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2CE1DA041EBF3A9100B179B2 /* BRPtouchPrinterKitW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CE1DA031EBF3A9100B179B2 /* BRPtouchPrinterKitW.framework */; };
 		B3E7B58A1CC2AC0600A0062D /* RNBrptouchprinter.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNBrptouchprinter.m */; };
+		FB2210C323EB94D100221EE5 /* BRPtouchPrinterKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2210C223EB94D100221EE5 /* BRPtouchPrinterKit.framework */; };
+		FB2210C523EB94E900221EE5 /* BRPtouchPrinterKitW.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB2210C423EB94E900221EE5 /* BRPtouchPrinterKitW.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,9 +26,10 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNBrptouchprinter.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBrptouchprinter.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		2CE1DA031EBF3A9100B179B2 /* BRPtouchPrinterKitW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRPtouchPrinterKitW.framework; path = Frameworks/BRPtouchPrinterKitW.framework; sourceTree = "<group>"; };
 		B3E7B5881CC2AC0600A0062D /* RNBrptouchprinter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBrptouchprinter.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNBrptouchprinter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBrptouchprinter.m; sourceTree = "<group>"; };
+		FB2210C223EB94D100221EE5 /* BRPtouchPrinterKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRPtouchPrinterKit.framework; path = Frameworks/BRPtouchPrinterKit.framework; sourceTree = "<group>"; };
+		FB2210C423EB94E900221EE5 /* BRPtouchPrinterKitW.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = BRPtouchPrinterKitW.framework; path = Frameworks/BRPtouchPrinterKitW.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,7 +37,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2CE1DA041EBF3A9100B179B2 /* BRPtouchPrinterKitW.framework in Frameworks */,
+				FB2210C323EB94D100221EE5 /* BRPtouchPrinterKit.framework in Frameworks */,
+				FB2210C523EB94E900221EE5 /* BRPtouchPrinterKitW.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -53,7 +56,8 @@
 		2CF958561EBE21330025A99E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				2CE1DA031EBF3A9100B179B2 /* BRPtouchPrinterKitW.framework */,
+				FB2210C423EB94E900221EE5 /* BRPtouchPrinterKitW.framework */,
+				FB2210C223EB94D100221EE5 /* BRPtouchPrinterKit.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -107,6 +111,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 58B511D21A9E6C8500147676;
